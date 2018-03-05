@@ -16,15 +16,19 @@ public class App
         Scanner reader = new Scanner(System.in);
         int opcion;
         opcion = reader.nextInt();
+        
         if (opcion==1) {
-        	SeccionCaballero sm= new SeccionCaballero();
+        	SeccionCaballero sc= new SeccionCaballero();
+        	
 		} else  if (opcion==2){
 			SeccionMujeres sm= new SeccionMujeres();
 			
 		}else  if (opcion==3){
-			SeccionNiños sm= new SeccionNiños();
+			SeccionNiños sn= new SeccionNiños();
+			
 		}else  if (opcion==4){
-			SeccionBebes sm= new SeccionBebes();
+			SeccionBebes sb= new SeccionBebes();
+			
 		}
 
         
